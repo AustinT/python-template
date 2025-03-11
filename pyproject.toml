@@ -9,7 +9,7 @@ ignore_missing_imports = true
 [tool.ruff]
 line-length = 120
 # Check https://beta.ruff.rs/docs/rules/ for full list of rules
-select = [
+lint.select = [
   "E", "W",  # pycodestyle
   "F",  # Pyflakes
   "I",  # isort
